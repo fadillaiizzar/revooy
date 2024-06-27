@@ -1,0 +1,478 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  rgb(224, 219, 215);
+
+}
+
+.container{
+    background-color: rgb(224, 219, 215);
+}
+
+nav{
+    background-color: rgb(224, 219, 215);
+    display: flex;
+    border-radius: 30px;
+    margin: 0rem 1rem 0 1rem;
+    padding-top: 2.1rem;
+
+}
+
+nav h2{
+    background-color: rgb(88, 151, 151);
+    width: 20%;
+    padding: 1px 0 6px 25px;
+    border-radius: 30px 0 0 30px;
+    z-index: 1;
+    border: 2px solid black;
+    border-right: 0;
+}
+
+nav ul{
+    background-color: rgb(88, 151, 151);
+    width: 80%;
+    text-align: end;
+    padding-top: 6px;
+    padding-right: 15px;
+    border-radius: 0 30px 30px 0;
+    border: 2px solid black;
+    border-left: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 1px 8px 1px 8px;
+    margin-right: 1rem;
+}
+
+nav ul li#area{
+    color: white;
+}
+
+nav ul li select{
+    border-radius: 8px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+@media screen and (max-width: 476px){
+    nav{
+        display: flex;
+        border-radius: 30px;
+        margin: 0rem 1rem 0 1rem;
+        padding-top: 2.1rem;
+    }
+    
+    nav h2{
+        width: 40%;
+        padding: 1px 0 6px 25px;
+        border-radius: 30px 0 0 30px;
+        z-index: 1;
+        font-size: 22px;
+    }
+    
+    nav ul{
+        width: 60%;
+        text-align: end;
+        padding-top: 6px;
+        padding-right: 2px;
+        border-radius: 0 30px 30px 0;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        padding: 1px 8px 1px 8px;
+        margin-right: 1rem;
+        font-size: 15px;
+        border-radius: 4px;
+    }
+    nav ul li a{
+        text-decoration: none;
+    }
+
+    .container .konten{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+        margin: 2.8rem auto 3rem;
+        height: 135vh;
+        background-color: rgb(224, 219, 215);
+        border: 0;
+    }
+    
+    .container .konten .box-1{
+        width: 90%;
+        margin: 1rem;
+        border: 2px solid black;
+    }
+    
+    .konten .box-1 .logo{
+        height: 25%;
+    }
+    
+    .konten .box-1 .logo img{
+        height: 90%;
+        margin-top: 1rem;
+    }
+    
+    .konten .box-1 .text{
+        height: 35%;
+        padding: 2rem;
+    }
+
+    .container .konten .box-2{
+        width: 90%;
+        margin: 1rem;
+        border: 2px solid black;
+    }
+    
+    .container .konten .box-2 h2{
+        padding: 8px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .konten .box-2 table{
+        margin: 3.5rem auto;
+        width: 95%;
+        height: 45vh;
+    }
+    
+    .konten .box-2 table tr th{
+        width: 20%;
+    }
+
+}
+
+.konten{
+    background-color: rgb(88, 151, 151);
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin: 2.8rem auto 3rem;
+    height: 75vh;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.konten .box-1{
+    background-color: rgb(226, 43, 156);
+    width: 40%;
+    margin: 1rem;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.konten .box-1 .logo{
+    background-color: rgb(8, 58, 58);
+    height: 65%;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid black;
+}
+
+.konten .box-1 .logo img{
+    background-color: rgb(8, 58, 58);
+    height: 90%;
+    margin-top: 1rem;
+}
+
+.konten .box-1 .text{
+    background-color: rgb(224, 219, 215);
+    height: 35%;
+    padding: 2rem;
+    border-radius: 0 0 8px 8px;
+}
+
+.konten .box-2{
+    background-color: rgb(8, 58, 58);
+    width: 60%;
+    margin: 1rem;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.konten .box-2 h2{
+    padding: 8px;
+    background-color: rgb(224, 219, 215);
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid black;
+}
+
+.konten .box-2 table{
+    background-color: rgb(88, 151, 151);
+    margin: 3.5rem auto;
+    width: 95%;
+    height: 45vh;
+}
+
+.konten .box-2 table tr th{
+    width: 20%;
+}
+
+.konten .box-2 table tr th a{
+    text-decoration: none;
+    color: rgb(41, 32, 25);
+}
+
+.konten .box-2 table tr th a:hover{
+    text-decoration: none;
+    color: rgb(255, 252, 245);
+}
+
+.konten .box-2 table tr th#diyy{
+    background-color: rgb(88, 151, 151);
+}
+
+.konten .box-2 table tr th#putih{
+    background-color: rgb(224, 219, 215);
+}
+
+.wisata{
+    background-color: rgb(88, 151, 151);
+    width: 90%;
+    text-align: center;
+    margin: 2rem auto 1rem;
+    height: 80vh;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.wisata .box{
+    background-color: blue;
+    height: 73vh;
+    border-radius: 8px;
+}
+
+.wisata .box h3{
+    background-color: rgb(8, 58, 58);
+    border: 1px solid black;
+    border-bottom: 0;
+    color: aliceblue;
+    height: 10%;
+    padding-top: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.wisata .box ul{
+    background-color: rgb(224, 219, 215);
+    text-align: center;
+    height: 90%;
+    padding-top: 2.8rem;
+    border: 1px solid black;
+    border-radius:  0 0 8px 8px;
+}
+
+.wisata .box ul li{
+    display: inline-block;
+    background-color: rgb(224, 219, 215);
+    margin-left: 1.2rem;
+    padding-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.wisata .box ul li a img{
+    background-color:rgb(224, 219, 215);
+    width: 70%;
+
+}
+
+.wisata .box ul li a{
+    text-decoration: none;
+}
+
+.wisata .box ul li a p{
+    background-color: rgb(8, 58, 58);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin: auto;
+    color: wheat;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.contact{
+    background-color: rgb(8, 58, 58);
+    height: 100vh;
+    padding-top: 3rem;
+}
+
+.contact .box-c{
+    background-color: rgb(224, 219, 215);
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    height: 90%;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.contact .box-c h2{
+    background-color: rgb(88, 151, 151);
+    height: 10%;
+    align-content: center;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid black;
+}
+
+.contact .box-c form{
+    background-color: rgb(88, 151, 151);
+    height: 70%;
+    width: 80%;
+    align-content: center;
+    margin: 3rem auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.contact .box-c form .namaa{
+    width: 100%;
+    background-color: rgb(88, 151, 151);
+    margin-bottom: 8px;
+}
+
+.contact .box-c form label{
+    background-color: rgb(8, 58, 58);
+    width: 15%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 14px;
+    color: aliceblue;
+    border: 1px solid black;
+}
+
+.contact .box-c form label#smdgn{
+    background-color: rgb(88, 151, 151);
+    width: 5%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    color: black;
+    border:0;
+}
+
+.contact .box-c form input{
+    background-color:rgb(8, 58, 58);
+    width: 16.5%;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px;
+    color: white;
+}
+
+.contact .box-c form .tanggal{
+    width: 100%;
+    background-color: rgb(88, 151, 151);
+    margin-bottom: 8px;
+}
+
+.contact .box-c form .tanggal input{
+    color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px;
+}
+
+/* .contact .box-c form .gender{
+    width: 100%;
+    background-color: rgb(88, 151, 151);
+    margin-bottom: 8px;
+}
+
+.contact .box-c form input#pria{
+    width: 2%;
+    background-color: antiquewhite;
+}
+
+.contact .box-c form label#pria{
+    width: 5%;
+}
+
+.contact .box-c form input#wanita{
+    width: 2%;
+    background-color: rgb(104, 65, 14);
+}
+
+.contact .box-c form label#wanita{
+    width: 7%;
+} */
+
+
+.contact .box-c form .ulasan{
+    width: 100%;
+    background-color: rgb(88, 151, 151);
+    margin-bottom: 8px;
+}
+
+.contact .box-c form .message{
+    width: 100%;
+    background-color: rgb(88, 151, 151);
+    margin-bottom: 8px;
+    height: 20%;
+}
+
+.contact .box-c form input#message2{
+    background-color: rgb(8, 58, 58);
+    width: 16.5%;
+    height: 100%;
+    display: inline-block;
+}
+
+.contact .box-c form button#submit{
+    padding: 4px 8px 4px 8px;
+    margin-top: 1.3rem;
+    border-radius: 6px;
+
+}
+
+.contact .box-c form button#submit:hover{
+    background-color: rgb(8, 58, 58);
+    color: rgb(255, 255, 255);
+}
+
+.contact .box-c form button#submit a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.contact .box-c form button#submit a:hover{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10%;
+    padding: 8px;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer h2 a{
+    text-decoration: none;
+    color: wheat;
+}
+
+
+footer h2 a:hover{
+    color: rgb(175, 136, 136);
+}
