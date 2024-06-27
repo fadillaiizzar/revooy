@@ -8,105 +8,92 @@
 </head>
 <body>
 
-<div class="container">
-    <nav id="home">
+<!-- CONTAINER -->
+<div class="container" id="home">
+    <!-- NAV -->
+    <nav>
         <h2>yogyakarta</h2>
     
         <ul>
             <li><a href="#home">home</a></li>
-            <li><a href="#area">area</a> 
-                <!-- <select name="forma">
-                        <option>sleman</option>
-                        <option>gunung kidul</option>
-                        <option selected>diy</option>
-                        <option>bantul</option>
-                        <option>kulon progo</option>
-                </select> -->
-            </li>
+            <li><a href="#area">area</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
+    <!-- NAV END -->
     
+    <!-- KONTEN -->
     <div class="konten">
-        <div class="box-1">
-            <div class="logo">
-                <img src="image/logo diy.png">
-            </div>
-    
-            <div class="text">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium nemo error quod hic delectus, asperiores quidem natus nulla, iure vero repellat accusantium sed necessitatibus non autem excepturi facere quis eos?</p>
+        <div class="konten-lotext" id="home">
+            <div class="box-1">
+                <div class="logo">
+                    <img src="image/logo diy.png">
+                </div>
+        
+                <div class="text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium nemo error quod hic delectus, asperiores quidem natus nulla, iure vero repellat accusantium sed necessitatibus non autem excepturi facere quis eos?</p>
+                </div>
             </div>
         </div>
-    
-        <div class="box-2" id="area">
-            <h2>area</h2>
-    
-            <table border="1">
-                <tr>
-                    <th><a href="../diyrevo/area/sleman.html">sleman</a></th>
-                    <th id="putih"></th>
-                    <th><a href="../diyrevo/area/gunkid.html">gunung kidul</a></th>
-                </tr>
-    
-                <tr>
-                    <th colspan="3" bgcolor="" id="diyy"><a href="../diyrevo/area/diy.html">diy</a></th>
-                </tr>
-    
-                <tr>
-                    <th><a href="../diyrevo/area/kulon-progo.html">kulon progo</a></th>
-                    <th id="putih"></th>
-                    <th><a href="../diyrevo/area/bantul.html">bantul</a></th>
-                </tr>
-            </table>
+        
+        <div class="konten-area" id="area">
+            <div class="box-2" >
+                <h2>area</h2>
+        
+                <table border="1">
+                    <tr>
+                        <th><a href="../revooy/area/sleman.html">sleman</th>
+                        <th id="putih"></th>
+                        <th><a href="../revooy/area/gunkid.html">gunung kidul</a></th>
+                    </tr>
+        
+                    <tr>
+                        <th colspan="3" bgcolor="" id="diyy"><a href="../revooy/area/diy.html">diy</a></th>
+                    </tr>
+        
+                    <tr>
+                        <th><a href="../revooy/area/kulon-progo.html">kulon progo</a></th>
+                        <th id="putih"></th>
+                        <th><a href="../revooy/area/bantul.html">bantul</a></th>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
+    <!-- KONTEN END -->
 
+    <!-- CONTACT -->
     <div class="contact" id="contact">
         <div class="box-c">
             <h2>contact us</h2>
 
             <form>
-                <div class="namaa">
-                    <label>name</label>
-                    <label id="smdgn">:</label>
-                    <input type="text">
+                <div class="nama">
+                    <input type="text" placeholder="nama" id="nama">
                 </div>
 
-                <div class="tanggal">
-                    <label>date and time</label>
-                    <label id="smdgn">:</label>
-                    <input type="datetime-local">
-                </div>
-
-                <!-- <div class="gender">
-                    <label>gender</label>
-                    <label id="smdgn">:</label>
-                    <input type="radio" id="pria" name="jeniskelamin"><label for="pria" id="pria">pria</label>
-                    <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita" id="wanita">wanita</label>
-                </div> -->
-
-                <div class="ulasan">
-                    <label>riview</label>
-                    <label id="smdgn">:</label>
-                    <input type="range">
+                <div class="date">
+                    <input type="datetime-local" id="date">
                 </div>
 
                 <div class="message">
-                    <label>message</label>
-                    <label id="smdgn">:</label>
-                    <input type="text" id="message2">
-                </div>                
+                    <textarea placeholder="message" id="message"></textarea>
+                </div>
 
                 <button id="submit"><a href="#home">submit</a></button>
-
             </form>
         </div>
     </div>
+    <!-- CONTACT END -->
     
+    <!-- FOOTER -->
     <footer>
         <h2><a href="#home">@dilloooo</a></h2>
     </footer>
+    <!-- FOOTER END -->
+
 </div>
+<!-- CONTAINER END -->
     
 </body>
 </html>
